@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		816C3D3C1E2CA4BA00DF21C7 /* SQLDBDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 816C3D3B1E2CA4BA00DF21C7 /* SQLDBDemoTests.m */; };
+		816C3D471E2CA4BA00DF21C7 /* SQLDBDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 816C3D461E2CA4BA00DF21C7 /* SQLDBDemoUITests.m */; };
+		81B019651E2CB187002F62DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B0195B1E2CB187002F62DD /* AppDelegate.m */; };
+		81B019661E2CB187002F62DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B0195C1E2CB187002F62DD /* Assets.xcassets */; };
+		81B019671E2CB187002F62DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B0195D1E2CB187002F62DD /* LaunchScreen.storyboard */; };
+		81B019681E2CB187002F62DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B0195F1E2CB187002F62DD /* Main.storyboard */; };
+		81B019691E2CB187002F62DD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81B019611E2CB187002F62DD /* Info.plist */; };
+		81B0196A1E2CB187002F62DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B019621E2CB187002F62DD /* main.m */; };
+		81B0196B1E2CB187002F62DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B019641E2CB187002F62DD /* ViewController.m */; };
+		BF627498AD6130137A75816A /* libPods-SQLDBDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B10B52324BD47997EE0A04 /* libPods-SQLDBDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		816C3D381E2CA4BA00DF21C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 816C3D161E2CA4BA00DF21C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816C3D1D1E2CA4BA00DF21C7;
+			remoteInfo = SQLDBDemo;
+		};
+		816C3D431E2CA4BA00DF21C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 816C3D161E2CA4BA00DF21C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816C3D1D1E2CA4BA00DF21C7;
+			remoteInfo = SQLDBDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44B10B52324BD47997EE0A04 /* libPods-SQLDBDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQLDBDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55EFB0A2508764C725860B91 /* Pods-SQLDBDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLDBDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQLDBDemo/Pods-SQLDBDemo.release.xcconfig"; sourceTree = "<group>"; };
+		816C3D1E1E2CA4BA00DF21C7 /* SQLDBDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLDBDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		816C3D371E2CA4BA00DF21C7 /* SQLDBDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLDBDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		816C3D3B1E2CA4BA00DF21C7 /* SQLDBDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLDBDemoTests.m; sourceTree = "<group>"; };
+		816C3D3D1E2CA4BA00DF21C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816C3D421E2CA4BA00DF21C7 /* SQLDBDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLDBDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		816C3D461E2CA4BA00DF21C7 /* SQLDBDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLDBDemoUITests.m; sourceTree = "<group>"; };
+		816C3D481E2CA4BA00DF21C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B0195A1E2CB187002F62DD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81B0195B1E2CB187002F62DD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81B0195C1E2CB187002F62DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81B0195E1E2CB187002F62DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81B019601E2CB187002F62DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81B019611E2CB187002F62DD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B019621E2CB187002F62DD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81B019631E2CB187002F62DD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		81B019641E2CB187002F62DD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2F0D3CC7E91BA2C890C1A35 /* Pods-SQLDBDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLDBDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQLDBDemo/Pods-SQLDBDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		816C3D1B1E2CA4BA00DF21C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF627498AD6130137A75816A /* libPods-SQLDBDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816C3D341E2CA4BA00DF21C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816C3D3F1E2CA4BA00DF21C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48FE731A20214FA771FED34E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2F0D3CC7E91BA2C890C1A35 /* Pods-SQLDBDemo.debug.xcconfig */,
+				55EFB0A2508764C725860B91 /* Pods-SQLDBDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		51B8D19FF791AFD0D2D7A1E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44B10B52324BD47997EE0A04 /* libPods-SQLDBDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		816C3D151E2CA4BA00DF21C7 = {
+			isa = PBXGroup;
+			children = (
+				81B019591E2CB187002F62DD /* Example */,
+				816C3D3A1E2CA4BA00DF21C7 /* SQLDBDemoTests */,
+				816C3D451E2CA4BA00DF21C7 /* SQLDBDemoUITests */,
+				816C3D1F1E2CA4BA00DF21C7 /* Products */,
+				48FE731A20214FA771FED34E /* Pods */,
+				51B8D19FF791AFD0D2D7A1E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		816C3D1F1E2CA4BA00DF21C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				816C3D1E1E2CA4BA00DF21C7 /* SQLDBDemo.app */,
+				816C3D371E2CA4BA00DF21C7 /* SQLDBDemoTests.xctest */,
+				816C3D421E2CA4BA00DF21C7 /* SQLDBDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		816C3D3A1E2CA4BA00DF21C7 /* SQLDBDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				816C3D3B1E2CA4BA00DF21C7 /* SQLDBDemoTests.m */,
+				816C3D3D1E2CA4BA00DF21C7 /* Info.plist */,
+			);
+			path = SQLDBDemoTests;
+			sourceTree = "<group>";
+		};
+		816C3D451E2CA4BA00DF21C7 /* SQLDBDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				816C3D461E2CA4BA00DF21C7 /* SQLDBDemoUITests.m */,
+				816C3D481E2CA4BA00DF21C7 /* Info.plist */,
+			);
+			path = SQLDBDemoUITests;
+			sourceTree = "<group>";
+		};
+		81B019591E2CB187002F62DD /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				81B0195A1E2CB187002F62DD /* AppDelegate.h */,
+				81B0195B1E2CB187002F62DD /* AppDelegate.m */,
+				81B0195C1E2CB187002F62DD /* Assets.xcassets */,
+				81B0195D1E2CB187002F62DD /* LaunchScreen.storyboard */,
+				81B0195F1E2CB187002F62DD /* Main.storyboard */,
+				81B019611E2CB187002F62DD /* Info.plist */,
+				81B019631E2CB187002F62DD /* ViewController.h */,
+				81B019641E2CB187002F62DD /* ViewController.m */,
+				81B0196C1E2CB19A002F62DD /* Supporting Files */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		81B0196C1E2CB19A002F62DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81B019621E2CB187002F62DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		816C3D1D1E2CA4BA00DF21C7 /* SQLDBDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816C3D4B1E2CA4BA00DF21C7 /* Build configuration list for PBXNativeTarget "SQLDBDemo" */;
+			buildPhases = (
+				E514DB27CEF3A5040480E155 /* [CP] Check Pods Manifest.lock */,
+				816C3D1A1E2CA4BA00DF21C7 /* Sources */,
+				816C3D1B1E2CA4BA00DF21C7 /* Frameworks */,
+				816C3D1C1E2CA4BA00DF21C7 /* Resources */,
+				0F40E09800591A255AA9A9D9 /* [CP] Embed Pods Frameworks */,
+				9AD69ABBABD738E8CDDE3D6D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLDBDemo;
+			productName = SQLDBDemo;
+			productReference = 816C3D1E1E2CA4BA00DF21C7 /* SQLDBDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		816C3D361E2CA4BA00DF21C7 /* SQLDBDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816C3D4E1E2CA4BA00DF21C7 /* Build configuration list for PBXNativeTarget "SQLDBDemoTests" */;
+			buildPhases = (
+				816C3D331E2CA4BA00DF21C7 /* Sources */,
+				816C3D341E2CA4BA00DF21C7 /* Frameworks */,
+				816C3D351E2CA4BA00DF21C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				816C3D391E2CA4BA00DF21C7 /* PBXTargetDependency */,
+			);
+			name = SQLDBDemoTests;
+			productName = SQLDBDemoTests;
+			productReference = 816C3D371E2CA4BA00DF21C7 /* SQLDBDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		816C3D411E2CA4BA00DF21C7 /* SQLDBDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816C3D511E2CA4BA00DF21C7 /* Build configuration list for PBXNativeTarget "SQLDBDemoUITests" */;
+			buildPhases = (
+				816C3D3E1E2CA4BA00DF21C7 /* Sources */,
+				816C3D3F1E2CA4BA00DF21C7 /* Frameworks */,
+				816C3D401E2CA4BA00DF21C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				816C3D441E2CA4BA00DF21C7 /* PBXTargetDependency */,
+			);
+			name = SQLDBDemoUITests;
+			productName = SQLDBDemoUITests;
+			productReference = 816C3D421E2CA4BA00DF21C7 /* SQLDBDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		816C3D161E2CA4BA00DF21C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = TVM;
+				TargetAttributes = {
+					816C3D1D1E2CA4BA00DF21C7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					816C3D361E2CA4BA00DF21C7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 816C3D1D1E2CA4BA00DF21C7;
+					};
+					816C3D411E2CA4BA00DF21C7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 816C3D1D1E2CA4BA00DF21C7;
+					};
+				};
+			};
+			buildConfigurationList = 816C3D191E2CA4BA00DF21C7 /* Build configuration list for PBXProject "SQLDBDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 816C3D151E2CA4BA00DF21C7;
+			productRefGroup = 816C3D1F1E2CA4BA00DF21C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				816C3D1D1E2CA4BA00DF21C7 /* SQLDBDemo */,
+				816C3D361E2CA4BA00DF21C7 /* SQLDBDemoTests */,
+				816C3D411E2CA4BA00DF21C7 /* SQLDBDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		816C3D1C1E2CA4BA00DF21C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B019661E2CB187002F62DD /* Assets.xcassets in Resources */,
+				81B019681E2CB187002F62DD /* Main.storyboard in Resources */,
+				81B019671E2CB187002F62DD /* LaunchScreen.storyboard in Resources */,
+				81B019691E2CB187002F62DD /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816C3D351E2CA4BA00DF21C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816C3D401E2CA4BA00DF21C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F40E09800591A255AA9A9D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQLDBDemo/Pods-SQLDBDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AD69ABBABD738E8CDDE3D6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQLDBDemo/Pods-SQLDBDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E514DB27CEF3A5040480E155 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		816C3D1A1E2CA4BA00DF21C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B019651E2CB187002F62DD /* AppDelegate.m in Sources */,
+				81B0196A1E2CB187002F62DD /* main.m in Sources */,
+				81B0196B1E2CB187002F62DD /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816C3D331E2CA4BA00DF21C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816C3D3C1E2CA4BA00DF21C7 /* SQLDBDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816C3D3E1E2CA4BA00DF21C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816C3D471E2CA4BA00DF21C7 /* SQLDBDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		816C3D391E2CA4BA00DF21C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816C3D1D1E2CA4BA00DF21C7 /* SQLDBDemo */;
+			targetProxy = 816C3D381E2CA4BA00DF21C7 /* PBXContainerItemProxy */;
+		};
+		816C3D441E2CA4BA00DF21C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816C3D1D1E2CA4BA00DF21C7 /* SQLDBDemo */;
+			targetProxy = 816C3D431E2CA4BA00DF21C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81B0195D1E2CB187002F62DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B0195E1E2CB187002F62DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		81B0195F1E2CB187002F62DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B019601E2CB187002F62DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		816C3D491E2CA4BA00DF21C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		816C3D4A1E2CA4BA00DF21C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		816C3D4C1E2CA4BA00DF21C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2F0D3CC7E91BA2C890C1A35 /* Pods-SQLDBDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvmining.SQLDBDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		816C3D4D1E2CA4BA00DF21C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55EFB0A2508764C725860B91 /* Pods-SQLDBDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvmining.SQLDBDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		816C3D4F1E2CA4BA00DF21C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SQLDBDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvmining.SQLDBDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLDBDemo.app/SQLDBDemo";
+			};
+			name = Debug;
+		};
+		816C3D501E2CA4BA00DF21C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SQLDBDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvmining.SQLDBDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLDBDemo.app/SQLDBDemo";
+			};
+			name = Release;
+		};
+		816C3D521E2CA4BA00DF21C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SQLDBDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvmining.SQLDBDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SQLDBDemo;
+			};
+			name = Debug;
+		};
+		816C3D531E2CA4BA00DF21C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SQLDBDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvmining.SQLDBDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SQLDBDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		816C3D191E2CA4BA00DF21C7 /* Build configuration list for PBXProject "SQLDBDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816C3D491E2CA4BA00DF21C7 /* Debug */,
+				816C3D4A1E2CA4BA00DF21C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816C3D4B1E2CA4BA00DF21C7 /* Build configuration list for PBXNativeTarget "SQLDBDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816C3D4C1E2CA4BA00DF21C7 /* Debug */,
+				816C3D4D1E2CA4BA00DF21C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816C3D4E1E2CA4BA00DF21C7 /* Build configuration list for PBXNativeTarget "SQLDBDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816C3D4F1E2CA4BA00DF21C7 /* Debug */,
+				816C3D501E2CA4BA00DF21C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816C3D511E2CA4BA00DF21C7 /* Build configuration list for PBXNativeTarget "SQLDBDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816C3D521E2CA4BA00DF21C7 /* Debug */,
+				816C3D531E2CA4BA00DF21C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 816C3D161E2CA4BA00DF21C7 /* Project object */;
+}

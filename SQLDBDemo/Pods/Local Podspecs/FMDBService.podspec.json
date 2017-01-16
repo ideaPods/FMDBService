@@ -1,0 +1,33 @@
+{
+  "name": "FMDBService",
+  "version": "0.2.03",
+  "summary": "An SQLite Framework,based FMDB, automatic database operation thread-safe and no recursive deadlock",
+  "description": "support:NSArray,NSDictionary, ModelClass, NSNumber, NSString, NSDate, NSData, UIColor, UIImage, CGRect, CGPoint, CGSize, NSRange, int,char,float, double, long..",
+  "homepage": "https://github.com/ideaPods/FMDBService",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "WilliamQiu": "ideapods@163.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "frameworks": "Foundation",
+  "source": {
+    "git": "https://github.com/ideaPods/FMDBService.git"
+  },
+  "source_files": [
+    "FMDBService",
+    "FMDBService/**/*.{h,m}"
+  ],
+  "vendored_frameworks": "",
+  "resources": "",
+  "requires_arc": true,
+  "dependencies": {
+    "FMDB": [
+      "~> 2.6.2"
+    ]
+  }
+}
